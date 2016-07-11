@@ -1,0 +1,215 @@
+body {
+  font-family: 'Roboto', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0%;
+}
+
+#nav-links li a:hover, a.selected {
+    background: #000000;
+}
+
+#topmost {
+    background: #ffffff;
+    padding: 0.5em 0;
+}
+
+#links_container {
+    background: #2e6da4;
+}
+
+#nav-links li a {
+    color: #ffffff;
+}
+
+#navbar-header {
+    padding-right: 1em;
+    color: #ffffff;
+}
+
+#navbar-header * {
+    border: none;
+}
+
+.selected {
+    background: #000000;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.inline-image {
+    height: 20px;
+    width: auto;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.service-heading {
+    margin: auto;
+}
+
+.alert {
+    position: absolute;
+    width: 100%;
+    top: 55px;
+    z-index: 30;
+}
+
+.logo {
+    height: 46px;
+    width: auto;
+}
+
+#navbar .logo {
+    left: 5%;
+    top: 3px;
+    position: fixed;
+    z-index: 5000;
+}
+
+#content {
+    font-size: 1em;
+    margin-top: 50px;
+    width: 100%;
+    padding: 0;
+}
+
+address {
+
+}
+
+/* Home Page */
+
+#pictures .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#pictures {
+  z-index: 4;
+}
+
+#pictures span {
+  display: none;
+}
+
+/* Title */
+
+.title {
+  padding: 0 20px 5px 0px;
+  font-size: 20px;
+  background: url(img04.gif) no-repeat right 40%;
+  border-bottom: 2px #66A342 dashed;
+  margin-right: 20px;
+}
+
+.title, #post .byline, .byline a {
+  text-decoration: none;
+  color: #66A342;
+}
+
+#services h3 {
+  text-align: center;
+}
+
+/* Footer */
+
+#footer-row-1 {
+  padding-left: 3em;
+}
+
+#footer-row-2 {
+  text-align: center;
+}
+
+.footer {
+    margin-top: 2em;
+  border-top: 1px solid #CCFF33;
+  bottom: 0;
+  padding: 1em;
+  background: url(white_wall_hash.png) no-repeat;
+  background-size: cover;
+}
+
+.footer h4 {
+  color: gray;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px; 
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone #first-phone {
+  background-image: url('phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('mail.png');
+}
+
+.phone a {
+    display: inline-block;
+    padding-right: 4px;
+}
+
+#second-phone {
+    padding: 0;
+}
+
+/* Contact Page */
+
+#contact-details {
+    padding-right: 3em;
+}
+
+#contact_comments {
+    height: 150px;
+    resize: none;
+}
+
+#form_container {
+    padding: 4em;
+}
+
+/* About page */
+
+#profesan {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.quotes {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+#sidebar-slides .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#sidebar-slides .item {
+    margin: 3px;
+}
