@@ -1,3 +1,7 @@
+/** {*/
+    /*border: 1px solid red;*/
+/*}*/
+
 body {
   font-family: 'Roboto', sans-serif;
     overflow-y: scroll;
@@ -93,9 +97,9 @@ body {
 }
 
 .block-details {
-    padding: 1em 1em 3em 1em;
+    padding: 3em;
     color: #666666;
-    border-bottom: 2px solid #666666;
+    border-bottom: 2px solid transparent;
 }
 
 .block-details:hover {
@@ -105,6 +109,34 @@ body {
 
 .block-details:hover .blue {
     color: #337ab7;
+}
+
+#row-3 {
+    background: #2e6da4;
+    color: #ffffff;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.doctor {
+    text-align: center;
+}
+
+.doctor-image {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.doctor:hover .doctor-image {
+    background: #337ab7;
+}
+
+.doctor-bio {
+    padding: 2em .5em 1em;
+    margin: 0;
+}
+
+.doctor:hover .doctor-bio {
+    background: #f8f8f8;
 }
 
 #content {
@@ -134,25 +166,6 @@ address {
   display: none;
 }
 
-/* Title */
-
-.title {
-  padding: 0 20px 5px 0px;
-  font-size: 20px;
-  background: url(img04.gif) no-repeat right 40%;
-  border-bottom: 2px #66A342 dashed;
-  margin-right: 20px;
-}
-
-.title, #post .byline, .byline a {
-  text-decoration: none;
-  color: #66A342;
-}
-
-#services h3 {
-  text-align: center;
-}
-
 /* Footer */
 
 #footer-row-1 {
@@ -165,59 +178,18 @@ address {
 
 .footer {
     margin-top: 2em;
-  border-top: 1px solid #CCFF33;
-  bottom: 0;
-  padding: 1em;
-  background: url(white_wall_hash.png) no-repeat;
-  background-size: cover;
+    bottom: 0;
+    padding: 1em;
+    background: #666666;
+    color: #ebebeb;
 }
 
-.footer h4 {
-  color: gray;
+.footer a {
+    color: #ffffff;
 }
 
-.contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
-}
-
-.contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px; 
-  margin: 0 0 10px;
-}
-
-.contact-info li.phone #first-phone {
-  background-image: url('phone.png');
-}
-
-.contact-info li.mail a {
-  background-image: url('mail.png');
-}
-
-.phone a {
-    display: inline-block;
-    padding-right: 4px;
-}
-
-#second-phone {
-    padding: 0;
-}
-
-/* Contact Page */
-
-#contact-details {
-    padding-right: 3em;
-}
-
-#contact_comments {
-    height: 150px;
-    resize: none;
+.footer a:hover {
+    text-decoration: none;
 }
 
 #form_container {
