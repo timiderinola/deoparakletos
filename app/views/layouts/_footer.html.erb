@@ -3,13 +3,11 @@
     <div id="footer-row-1" data-role="footer" class="row">
       <div class="col-sm-4">
         <h4>
-          Deo Parakletos<br>
-          <small><em>...feel the comfort</em></small>
+          <%= image_tag 'DeoParakletos_2.png', alt: 'Deo Parakletos', class: 'name' %><br>
         </h4>
         <p>
-          Deo Parakletos Medical Centre is here to fix any health concern you might have. Our diverse team of physicians
-          and consultants and our customer service oriented approach will make you for once feel comfortable while
-          we attend to your medical needs.
+          Deo Parakletos Medical Centre is here to fix any health concern you might have. Our team of friendly physicians
+          and consultants will make you for once feel comfortable while we attend to your medical needs.
         </p>
         <br>
         <h4>Contact us</h4>
@@ -56,7 +54,7 @@
     </div>
     <br>
     <div id="footer-row-2" class="row">
-      <%= link_to 'Deo Parakletos Medical Centre', root_path %><br>
+      <%= link_to (image_tag 'DeoParakletos_white.png', alt: 'Deo Parakletos', class: 'footer-logo'), root_path %><br>
       &copy <%= Time.zone.now.year %>. All rights reserved.<br>
       <small>Deo Parakletos Medical Centre is a subsidiary of Deo Parakletos Investment Limited.</small>
     </div>

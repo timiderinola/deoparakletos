@@ -8,10 +8,8 @@
     </span>
     </div>
   </div>
-  <div class="container blue">
-    <h3>Deo Parakletos<br>
-      <small>Specialist Medical Centre</small>
-    </h3>
+  <div class="container">
+    <%=image_tag 'DeoParakletos.png', class: 'logo' %>
   </div>
     <div id="links_container">
       <div class="container" style="padding: 0;">
@@ -30,9 +28,8 @@
         <nav class="collapse navbar-collapse" id="navbar-collapse">
           <ul id="nav-links" class="nav navbar-nav">
             <li><%= nav_link_to 'HOME', root_path %></li>
-            <li><%= nav_link_to 'ABOUT', root_path %></li>
-            <li><%= nav_link_to 'SERVICES', root_path %></li>
-            <li><%= nav_link_to 'CONTACT', root_path %></li>
+            <li><%= nav_link_to 'ABOUT', about_path %></li>
+            <li><%= nav_link_to 'SERVICES', services_path %></li>
           </ul>
         </nav><!-- /.navbar-collapse -->
       </div>

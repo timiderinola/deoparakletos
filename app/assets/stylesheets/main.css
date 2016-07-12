@@ -15,6 +15,14 @@ body {
     position: relative;
 }
 
+#nav-links li a {
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    color: #ffffff;
+}
+
 #nav-links li a:hover, a.selected {
     background: #000000;
 }
@@ -26,10 +34,6 @@ body {
 
 #links_container {
     background: #2e6da4;
-}
-
-#nav-links li a {
-    color: #ffffff;
 }
 
 #navbar-header {
@@ -70,16 +74,19 @@ body {
     z-index: 30;
 }
 
-.logo {
-    height: 46px;
+.footer-logo {
+    height: 40px;
     width: auto;
 }
 
-#navbar .logo {
-    left: 5%;
-    top: 3px;
-    position: fixed;
-    z-index: 5000;
+.logo {
+    height: 70px;
+    width: auto;
+}
+
+.name {
+    height: 27px;
+    width: auto;
 }
 
 #row-2 h4 {
@@ -97,6 +104,10 @@ body {
 }
 
 .block-details {
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
     padding: 3em;
     color: #666666;
     border-bottom: 2px solid transparent;
@@ -107,8 +118,27 @@ body {
     border-bottom: 2px solid #337ab7;
 }
 
+.blue {
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
 .block-details:hover .blue {
     color: #337ab7;
+}
+
+.block-details a.btn {
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+
+.block-details a.btn:hover {
+    background: #337ab7;
+    color: #ffffff;
 }
 
 #row-3 {
@@ -124,6 +154,10 @@ body {
 
 .doctor-image {
     border-bottom: 1px solid #ebebeb;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
 }
 
 .doctor:hover .doctor-image {
