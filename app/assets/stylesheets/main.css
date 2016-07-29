@@ -1,7 +1,3 @@
-/** {
-    border: 1px solid red;
-}*/
-
 body {
   font-family: 'Roboto', sans-serif;
     overflow-y: scroll;
@@ -50,7 +46,6 @@ body {
 }
 
 #navbar-header {
-    padding-right: 1em;
     color: #ffffff;
 }
 
@@ -199,18 +194,23 @@ address {
 
 /* Home Page */
 
+#pictures {
+    padding: 0;
+}
+
 #pictures .item img {
+    position: relative;
   display: block;
   width: 100%;
   height: auto;
 }
 
-#pictures {
-  z-index: 4;
-}
-
 #pictures span {
   display: none;
+}
+
+.owl-controls {
+    display: none !important;
 }
 
 /* Footer */
